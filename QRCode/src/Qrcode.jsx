@@ -47,7 +47,7 @@ function QrDownloader (){
             <label htmlFor="datainput"  className="input-lable">
                 Data for QR Code 
             </label>
-            <input type="text" value={qrdata} className="datainput"  placeholder="Enter data for QR" onChange={(e)=>setqrdata(e.target.value)}/>
+            <input type="text" value={qrdata} className="datainput"  placeholder="Enter URL for QR" onChange={(e)=>setqrdata(e.target.value)}/>
             <label htmlFor="sizeinput" className="input-lable">
                 Image size 
             </label>
