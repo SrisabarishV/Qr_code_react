@@ -40,7 +40,7 @@ function QrDownloader (){
     <>
     <div className="app-container">
          
-            <h1>QR-code Generator</h1>
+            <h1>QR-Code Generator</h1>
             {loading && <p>Please Wait...</p>}
             {img && <img src={img} className="Qr-code-image" />}
             <div>
